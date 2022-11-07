@@ -8,9 +8,25 @@ canvas {
 }
 
 .container {
+    padding-top: 10px;
     float: right;
 }
 
 .highlight {
     font-weight: bold;
+}
+
+.purple {
+    font-weight: bold;
+    color: #BF40BF;
+}
+
+.red {
+    font-weight: bold;
+    color: #D22B2B;
+}
+
+.boxes {
+    border: 1px solid black;
+    padding: 15px 25px 15px 25px;
 }

@@ -14,16 +14,34 @@
 </head>
 <body>
     <script src="functions.js"></script>
-    <p id="acceleration-definition"><span class="highlight">Acceleration</span> is the name we give to any process where the velocity changes. Since velocity is a speed and a direction, there are only two ways for you to accelerate: change your speed or change your direction—or change both
-    <br>
-    That feeling you get when you're sitting in a plane during take-off, or slamming on the brakes in a car, or turning a corner at a high speed in a go kart are all situations where you are accelerating.
-    <br>
-    <span class="highlight">"Acceleration and velocity are basically the same thing, right?” Wrong</span>. People often erroneously think that if the velocity of an object is large, then the acceleration must also be large. Or they think that if the velocity of an object is small, it means that acceleration must be small. But that “just ain’t so”. <span class="highlight">The value of the velocity at a given moment does not determine the acceleration.</span> In other words, I can be changing my velocity at a high rate regardless of whether I'm currently moving slow or fast.
-    <br>
-    <span class="highlight">If you’re not changing your speed and you’re not changing your direction, then you simply cannot be accelerating—no matter how fast you’re going</span>. So, a jet moving with a constant velocity at 800 miles per hour along a straight line has zero acceleration, even though the jet is moving really fast, since the velocity isn’t changing. When the jet lands and quickly comes to a stop, it will have acceleration since it’s slowing down.
-    </p>
+    <div class="boxes">
+        <h3 style="font-family: 'Noto Serif'; font-weight: bold;">Acceleration & Velocity</h3>
+        <p id="acceleration-definition" style="border: 1px solid black; padding: 15px 25px 15px 25px;"><span class="highlight">Acceleration</span> is the name we give to any process where the velocity changes. Since velocity is a speed and a direction, there are only two ways for you to accelerate: change your speed or change your direction—or change both
+        <br>
+        That feeling you get when you're sitting in a plane during take-off, or slamming on the brakes in a car, or turning a corner at a high speed in a go kart are all situations where you are accelerating.
+        <br>
+        <span class="highlight">"Acceleration and velocity are basically the same thing, right?” Wrong</span>. People often erroneously think that if the velocity of an object is large, then the acceleration must also be large. Or they think that if the velocity of an object is small, it means that acceleration must be small. But that “just ain’t so”. <span class="highlight">The value of the velocity at a given moment does not determine the acceleration.</span> In other words, I can be changing my velocity at a high rate regardless of whether I'm currently moving slow or fast.
+        <br>
+        <span class="highlight">If you’re not changing your speed and you’re not changing your direction, then you simply cannot be accelerating—no matter how fast you’re going</span>. So, a jet moving with a constant velocity at 800 miles per hour along a straight line has zero acceleration, even though the jet is moving really fast, since the velocity isn’t changing. When the jet lands and quickly comes to a stop, it will have acceleration since it’s slowing down.
+        </p>
+    </div>
+    <div class="boxes">
+        <h3 style="font-family: 'Noto Serif'; font-weight: bold;">Test acceleration yourself!</h3>
+        <div class="sub-box" style="border: 1px solid black; padding: 15px 25px 15px 25px;">
+            <p>Click on the screen with the blob below, and follow these steps:
+                <ul style="text-align: left;">
+                    <li>Hold any arrow key: left, right, up, or down. The blob should start accelerating, that's shown with a <span class="purple">purple arrow.</span></li>
+                    <li>The velocity should increase, which is indicated by a <span class="red">red arrow</span>.
+                    <li>As you let go of the arrow key, you can see that the <span class="purple">purple arrow</span> disappears, and the <span class="red">red arrow</span> is fixed, and the blob moves at a constant speed.</li>
+                    <li>The formula shows that the instantaneous velocity is equal to the acceleration times the rate of change of time</li>
+                    <li>As acceleration is defined as the rate of change of velocity, when you stop accelerating, the velocity has no rate of change, which means it stays constant.</li>
+                    <li>You can see the values on the right-hand side, whenever the velocity reaches a multiple of 5.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
     <div class="container" id="info-div" style="width: 43.5%; height: 100vh;">
-        <p style="font-weight: bold; font-style: italic; font-size: 17.5px;">net velocity = net acceleration * rate of change of time</p>
+        <p style="font-weight: bold; font-style: italic; font-size: 17.5px;">velocity = acceleration * rate of change of time</p>
         <p id="velocity_test">0 = 0 * 0.1</p>
     </div>
     <script src="script.js"></script>
