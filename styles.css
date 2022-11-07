@@ -10,3 +10,7 @@ canvas {
 .container {
     float: right;
 }
+
+.highlight {
+    font-weight: bold;
+}
